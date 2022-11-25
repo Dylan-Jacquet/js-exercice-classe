@@ -4,6 +4,9 @@ class Player {
         this.name = name;
         this.score = 0;
     }
+    incScore() {
+        this.score ++ ;
+    }
 }
 const players = [new Player('Dylan'),new Player('Billy')];
 for (const buttonSelectorElement of buttonsSelector) {
